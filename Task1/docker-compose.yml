@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    container_name: fastapi-school-app
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - SQLALCHEMY_DATABASE_URL=sqlite:///./school.db
+    command: >
+      sh -c "uvicorn main:app --host 0.0.0.0 --port 8000 --reload"
