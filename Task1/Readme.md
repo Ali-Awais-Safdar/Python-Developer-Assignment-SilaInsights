@@ -183,5 +183,5 @@ curl -X POST "http://localhost:8000/teachers/" -H "Content-Type: application/jso
 
 ## Entity Relationship Diagram
 The Entity Relationship (ER) Diagram provides an overview of the database structure.
-![alt text](https://github.com/Ali-Awais-Safdar/RoutingVisualizationBetweenTwoEndpoints-OSM/blob/master/output.png)
+![alt text](https://github.com/Ali-Awais-Safdar/Python-Developer-Assignment-SilaInsights/blob/master/Task1/erDiagram/schema.png)
 
