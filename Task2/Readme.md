@@ -138,4 +138,4 @@ curl -X GET "http://localhost:8000/api/v1/health" \
 ## ER Diagram
 
 The Entity Relationship (ER) Diagram illustrates the structure of the database and its relationships.
-![alt text](https://github.com/Ali-Awais-Safdar/RoutingVisualizationBetweenTwoEndpoints-OSM/blob/master/output.png)
+![alt text](https://github.com/Ali-Awais-Safdar/Python-Developer-Assignment-SilaInsights/blob/master/Task2/erDiagram/schema.png)
